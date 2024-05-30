@@ -1,0 +1,88 @@
+/* Estilos para el botón de menú de hamburguesa */
+.menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #FFCB2F;
+}
+
+/* Estilos responsive */
+@media (max-width: 750px) {
+    .nav-links {
+        
+        list-style: none;
+        transition: transform 0.3s ease-in-out;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        background-color: #05050577;
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px 0;
+    }
+
+    .nav-links.closed {
+        display: none; /* Ocultar el menú por defecto */
+    }
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        background-color: #05050577;
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        padding: 20px 0;
+    }
+    
+    .header nav ul{
+        margin-top: 4rem;
+    }
+
+    .nav-links.open {
+        display: flex; /* Mostrar el menú cuando está abierto */
+    }
+
+    .nav-links li {
+        margin: 0.2rem 0;
+    }
+
+    .logo img {
+        height: 7rem;
+        padding: 1.5em;
+        margin-left: 2rem;
+        margin-top: -10.5rem;
+    }
+    .header__services-img {
+        display: flex;
+        margin-left: 16rem;
+        width: 8rem;
+        margin-top: -3.4rem;
+        animation: blink 3s infinite;
+    }
+    .accordion-custom {
+        width: 21rem;
+        max-width: 100vh;
+        /* margin: 0 auto; */
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        justify-content: center;
+        /* margin: 0 auto; */
+        margin-right: 10rem;
+    }
+}
+

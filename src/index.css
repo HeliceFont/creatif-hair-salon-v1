@@ -1,0 +1,259 @@
+:root {
+  font-family: "Libre Bodoni", serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  color-scheme: light dark;
+  color: black;
+  background-color: white;
+  --color-border: #FFCB2F;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.layout {
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 8rem;
+  /* border-bottom: 2px solid white; */
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.header .logo {
+  flex-grow: 1;
+  display: flex;
+  transform: translate(0, 0px);
+  /* Ajusta los valores según el efecto de flotado deseado */
+  transition: transform 0.6s ease-in-out;
+}
+
+.header .logo:hover {
+  transform: scale(1.1);
+  /* Ajusta los valores según el efecto de flotado deseado */
+}
+
+.header .logo span {
+  display: block;
+  font-size: 8.3rem;
+  font-weight: bolder;
+}
+
+.header .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 300px;
+  text-transform: uppercase;
+}
+
+.header nav {
+  flex-grow: 3;
+}
+
+.header nav ul {
+  height: 11.3rem;
+  width: 13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header li a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+
+}
+
+.header .active,
+.header a:hover {
+  background: var(--color-border);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  /* flex-wrap: wrap; */
+  background-image: url('./assets/fondo-IA2.svg');
+  background-size: cover;
+  justify-content: center;
+  backdrop-filter: blur(50px);
+  background-position: relative;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-color: rgba(54, 52, 52, 0.6);
+  background-size: cover;
+  background-attachment: fixed;
+  mask-image: linear-gradient(black 90%, transparent);
+  padding-bottom: 5rem;
+}
+.biography__text h3 {
+  text-align: center;
+  color: white;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+
+
+
+.footer {
+  min-height: 150px;
+  line-height: 120px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 35px;
+  padding-top: 45px;
+  border-top: 3px solid #41414163;
+  background: #050505;
+  color: #8e8d8d;
+}
+
+.content {
+  display: block;
+  min-height: 400px;
+
+}
+
+.texto-dinamico {
+  position: relative;
+  font-family: "Montserrat ", sans-serif;
+  color: var(--color-border);
+  top: 0;
+  left: -100%;
+  animation: moverTexto 20s linear infinite;
+  transition: all 15s linear;
+  max-width: 100%;
+  white-space: nowrap;
+
+}  
+
+.barra-lateral {
+  width: 1609px;
+  overflow-x: hidden;
+}
+
+.carousel .carosel-header {
+  width: 100%;
+  height: 25rem;
+  margin-bottom: 0rem;
+}
+
+.carousel__description {
+  margin-bottom: 15rem;
+}
+
+
+
+@keyframes moverTexto {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@media(max-width: 1300px) {
+  .biography__text h3 {
+    text-align: center;
+    color: white;
+    line-height: 2.2rem;
+    margin: 3rem;
+  }
+
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fleft__container {
+    margin-left: 1.8rem;
+  }
+
+  .footer__fright {
+    gap: 0rem;
+  }
+
+  .footer__widget--50 {
+    flex-basis: 28%;
+  }
+
+  .footer__widget {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+  }
+
+  .barra-lateral {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    height: 5rem;
+  }
+
+  .header-inicio {
+    display: flex;
+  }
+
+  .barra-lateral {
+    width: 800px;
+  }
+}
+
+@media (max-width: 514px) {
+  .barra-lateral {
+    width: 100%;
+  }
+
+  .widget__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1rem;
+  }
+  .header-inicio {
+    padding-bottom: 1rem;
+}
+.biography__text h3 {
+  
+  font-weight: 200;
+}
+  
+}

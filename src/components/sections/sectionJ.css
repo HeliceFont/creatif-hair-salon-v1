@@ -1,0 +1,208 @@
+:root {
+    --mx-width: 1320px;
+    --color-border: #FFCB2F;
+}
+
+.montserrat-subrayada-regular {
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-subrayada-bold {
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+.montserrat-card {
+    
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container__biography {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin-bottom: 3rem;
+    padding: 0rem 2rem;
+    max-width: var(--mx-width);
+}
+
+.biography__img {
+    flex: 0 0 auto;
+    /* Esto asegura que el ancho del contenedor de la imagen se ajuste al ancho de su contenido */
+    margin-right: 3.5rem;
+    /* Ajusta este valor según sea necesario para el espacio entre la imagen y el texto */
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.biography__img img {
+    width: 25rem;
+    /* Ajusta este valor según sea necesario para el tamaño deseado */
+    height: 25rem;
+    mask-image: linear-gradient(black 80%,
+            transparent);
+}
+
+.biography__text {
+    flex: 1 1 auto;
+    /* Esto asegura que el contenedor de texto ocupe el espacio restante disponible */
+    width: 50rem;
+    line-height: 1.2rem;
+}
+
+
+.biography__text h3 {
+    
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+    
+}
+
+.biography__text h3 b {
+    color: var(--color-border);
+}
+
+.gallery__contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.row__position {
+    padding-top: 3rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-top: 0rem;
+    background-color: black;
+}
+
+.row__position img {
+    filter: grayscale();
+
+}
+
+.row__position img:hover {
+    filter: none;
+    transform: scale(1.02)
+}
+
+.row__position video {
+
+    filter: grayscale();
+}
+
+.row__position video:hover {
+    filter: none;
+    transform: scale(1.02)
+}
+
+@media (max-width: 550px) {
+
+    .row__position {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section__collections {
+        height: 10vh;
+    }
+
+    .container__biography {
+        padding: 0rem 0rem;
+    }
+
+    .biography__text {
+        flex: 1 1 auto;
+        width: 30rem;
+        line-height: 1.2rem;
+        margin: 0rem;
+    }
+
+    .biography__text h3 {
+        text-align: center;
+        color: white;
+        line-height: 2.2rem;
+        margin: 5rem;
+        font-size: 0.9rem;
+    }
+
+
+    .sectionj__container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -2.1rem;
+        padding: 0rem;
+    }
+
+    .row {
+
+        --bs-gutter-x: 0.0rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .montserrat-subrayada-regular{
+        font-size: 0.9rem;
+    }
+    .biography__text h3 {
+        text-align: center;
+        color: white;
+        line-height: 2.2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .section__title-description h1 {
+        font-size: x-large;
+    }
+    .biography__text {
+
+        width: 25rem;
+        padding-left: 1.6rem;
+        margin: 0;
+    }
+    .biography__text h3 {
+        text-align: center;
+        color: white;
+        line-height: 2.2rem;
+        margin: 1rem;
+    }
+
+
+    .biography__img {
+        margin: 0 auto 1rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .biography__img img {
+        width: 100%;
+        height: auto;
+        mask-image: none;
+    }
+
+    .container__biography {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+
+    }
+}
