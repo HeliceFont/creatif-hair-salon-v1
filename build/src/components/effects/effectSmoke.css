@@ -1,0 +1,196 @@
+.section__collections {
+    /* height: 30vh; */
+    background: #000;
+    overflow: hidden;
+}
+
+/* .section__collections h1{
+    
+
+    
+    color: #ddd;
+    font-size: 5rem;
+    font-family: "Libre Bodoni", serif;
+
+} */
+
+.section__collections video {
+    width: 100%;
+    
+    object-fit: cover;
+    opacity: 0.7;
+    filter: grayscale();
+
+}
+
+.libre-bodoni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* Puedes ajustar esto según el peso de la fuente que desees */
+    font-style: normal;
+    margin-bottom: -1rem;
+    margin-top: -17rem;
+
+    color: #ddd;
+    font-size: 5rem;
+    text-align: center;
+    transform: rotateY(-50%);
+    letter-spacing: 0.2em;
+
+}
+
+.libre-bodoni-h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    /* Puedes ajustar esto según el peso de la fuente que desees */
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+
+    color: #ddd;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 4rem;
+    transform: rotateY(-50%);
+    letter-spacing: 0.2em;
+}
+
+.libre-bodoni span {
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+
+.libre-bodoni span:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.libre-bodoni span:nth-child(2) {
+    animation-delay: 1.25s;
+}
+
+.libre-bodoni span:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.libre-bodoni span:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.libre-bodoni span:nth-child(5) {
+    animation-delay: 2.25s;
+}
+
+.libre-bodoni span:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+.libre-bodoni span:nth-child(7) {
+    animation-delay: 2.75s;
+}
+
+.libre-bodoni span:nth-child(8) {
+    animation-delay: 3s;
+}
+
+.libre-bodoni span:nth-child(9) {
+    animation-delay: 3.25s;
+}
+
+.libre-bodoni span:nth-child(10) {
+    animation-delay: 3.5s;
+}
+
+.libre-bodoni span:nth-child(11) {
+    animation-delay: 4s;
+}
+
+.libre-bodoni span:nth-child(12) {
+    animation-delay: 4.25s;
+}
+
+.libre-bodoni span:nth-child(13) {
+    animation-delay: 4.5s;
+}
+
+.libre-bodoni span:nth-child(14) {
+    animation-delay: 4.75s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+
+@media (max-width: 1300px) {
+    .libre-bodoni {
+        margin-bottom: 9rem;
+        margin-top: -12rem;
+        font-size: 4rem;
+    }
+
+    .libre-bodoni-h2 {
+        display: flex;
+        justify-content: center;
+        font-family: "Libre Bodoni", serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        /* Puedes ajustar esto según el peso de la fuente que desees */
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        margin-top: -12rem;
+        color: #ddd;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 4rem;
+        transform: rotateY(-50%);
+        letter-spacing: 0.2em;
+    }
+}
+
+@media(max-width: 550px){
+    .section__collections video {
+        height: 6rem;
+    
+    }
+    .libre-bodoni-h2{
+        font-size: 1rem;
+        margin-top: -9rem;
+    }
+    .libre-bodoni {
+        margin-bottom: 6rem;
+        margin-top: -6rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 400px){
+    .libre-bodoni-h2{
+        font-size: 1rem;
+        margin-top: -9rem;
+    }
+    .libre-bodoni {
+        margin-bottom: 6rem;
+        margin-top: -6rem;
+        font-size: 2rem;
+    }
+}
