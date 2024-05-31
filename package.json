@@ -2,7 +2,7 @@
   "name": "08-proyecto2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://HeliceFont.github.io/creatif-hair-salon.github.io",
+  "homepage": "https://helicefont.github.io/creatif-hair-salon-v1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,6 @@
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-  
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",

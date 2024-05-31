@@ -20,7 +20,7 @@ export const MisRutas = () => {
 
         {/* CONTENIDO CENTRAL */}
         <section className="content">
-          <Routes>
+          <Routes basename="/creatif-hair-salon-v1">
               <Route path="/" element={<Navigate to="/inicio"/>}/>
               <Route path="/inicio" element={<Inicio/>}/>
               <Route path="/portafolio" element={<Portafolio/>}/>
