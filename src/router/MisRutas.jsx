@@ -21,13 +21,13 @@ export const MisRutas = () => {
         {/* CONTENIDO CENTRAL */}
         <section className="content">
           <Routes >
-              <Route path="/" element={<Navigate to="/inicio"/>}/>
-              <Route path="/inicio" element={<Inicio/>}/>
-              <Route path="/portafolio" element={<Portafolio/>}/>
-              <Route path="/nosotros" element={<Nosotros/>}/>
-              <Route path="/Servicios" element={<Servicios/>}/>
-              <Route path="/Collections" element={<Collections/>}/>
-              <Route path="/sectionj" element={<SectionJ/>}/>
+              <Route path="/" element={<Navigate to="/creatif-hair-salon-v1/inicio"/>}/>
+              <Route path="/creatif-hair-salon-v1/inicio" element={<Inicio/>}/>
+              <Route path="/creatif-hair-salon-v1/portafolio" element={<Portafolio/>}/>
+              <Route path="/creatif-hair-salon-v1/nosotros" element={<Nosotros/>}/>
+              <Route path="/creatif-hair-salon-v1/Servicios" element={<Servicios/>}/>
+              <Route path="/creatif-hair-salon-v1/Collections" element={<Collections/>}/>
+              <Route path="/creatif-hair-salon-v1/sectionj" element={<SectionJ/>}/>
           </Routes>
         </section>
         
