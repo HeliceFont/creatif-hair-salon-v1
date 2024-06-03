@@ -34,10 +34,10 @@
     /* Puedes ajustar esto según el peso de la fuente que desees */
     font-style: normal;
     margin-bottom: -1rem;
-    margin-top: -17rem;
+    margin-top: -15rem;
 
     color: #ddd;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     transform: rotateY(-50%);
     letter-spacing: 0.2em;
@@ -142,7 +142,7 @@
 @media (max-width: 1300px) {
     .libre-bodoni {
         margin-bottom: 9rem;
-        margin-top: -12rem;
+        margin-top: -9rem;
         font-size: 4rem;
     }
 
