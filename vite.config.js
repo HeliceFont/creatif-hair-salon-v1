@@ -5,7 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/creatif-hair-salon-v1/',
   plugins: [react()],
-   // build: {
-   //   outDir: 'build', // Ruta de salida personalizada
-   // },
+   
 })
