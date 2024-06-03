@@ -1,7 +1,7 @@
 {
-  "name": "08-proyecto2",
+  "name": "creatif-hair-salon-v1",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://helicefont.github.io/creatif-hair-salon-v1",
   "type": "module",
   "scripts": {
