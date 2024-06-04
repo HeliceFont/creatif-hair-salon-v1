@@ -14,7 +14,7 @@ export const MisRutas = () => {
   return (
     // IMPORTANTE tener instalado react-router-dom en el proyecto para que nuestras rutas funcionen correctamente
 <div>
-    <BrowserRouter basename="/creatif-hair-salon-v1">
+    <BrowserRouter base="/creatif-hair-salon-v1">
 
         {/* HEADER Y NAVEGACION */}
         <HeaderNav/>
@@ -22,7 +22,7 @@ export const MisRutas = () => {
         {/* CONTENIDO CENTRAL */}
         <section className="content">
           <Routes >
-              <Route path="/creatif-hair-salon-v1/" element={<Navigate to="/inicio"/>}/>
+              <Route path="/creatif-hair-salon-v1" element={<Navigate to="/inicio"/>}/>
               <Route path="/inicio" element={<Inicio/>}/>
               <Route path="/portafolio" element={<Portafolio/>}/>
               <Route path="/nosotros" element={<Nosotros/>}/>
