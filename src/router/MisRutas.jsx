@@ -4,7 +4,7 @@ import { Inicio } from "../components/inicio"
 import { Portafolio } from "../components/Portafolio"
 import { Nosotros } from "../components/Nosotros"
 import { Servicios } from "../components/Servicios"
-import { Contacto } from "../components/Contacto"
+// import { Contacto } from "../components/Contacto"
 import { HeaderNav } from "../components/layout/HeaderNav"
 import { Footer } from "../components/layout/Footer"
 import { SectionJ } from "../components/sections/SectionJ"
@@ -14,7 +14,7 @@ export const MisRutas = () => {
   return (
     // IMPORTANTE tener instalado react-router-dom en el proyecto para que nuestras rutas funcionen correctamente
 <div>
-    <BrowserRouter base="/creatif-hair-salon-v1">
+    <BrowserRouter basename="/creatif-hair-salon-v1">
 
         {/* HEADER Y NAVEGACION */}
         <HeaderNav/>
@@ -22,7 +22,7 @@ export const MisRutas = () => {
         {/* CONTENIDO CENTRAL */}
         <section className="content">
           <Routes >
-              <Route path="/creatif-hair-salon-v1" element={<Navigate to="/inicio"/>}/>
+              <Route path="/" element={<Navigate to="/inicio"/>}/>
               <Route path="/inicio" element={<Inicio/>}/>
               <Route path="/portafolio" element={<Portafolio/>}/>
               <Route path="/nosotros" element={<Nosotros/>}/>
