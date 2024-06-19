@@ -6,7 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'build', // Cambia 'dist' a 'build'
   },
-  base: '/creatif-hair-salon-v1/',
   plugins: [react()],
    
 })
