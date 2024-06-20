@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     mimeTypes: {
-      'application/javascript': ['js']
+      'application/javascript': ['js', 'jsx']
     }
   }
 })
