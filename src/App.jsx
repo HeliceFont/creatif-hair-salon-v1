@@ -14,7 +14,7 @@ function App() {
 
   window.addEventListener('blur', () =>{
     previousTitle = document.title
-    document.title = '🚨¡No te vayas! ¡vueleve! 🚨'
+    document.title = '🚨💀¡No te vayas! ¡vueleve!💀🚨'
   })
 
   window.addEventListener('focus', () =>{
