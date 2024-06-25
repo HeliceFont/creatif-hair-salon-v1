@@ -28,7 +28,7 @@ export const AccordionServices = () => {
                                             15 minutos ¿Qué incluye?
                                         </p>
                                         <button className='custom-button'>
-                                            <Link className='custom-link' to='https://widget.treatwell.es/availability?venueId=100063434&proposedServices=%5B%7B%22menuItemId%22%3A%22TR1360657012%22%2C%22optionIds%22%3A%5B%221263196299%22%5D%7D%5D' target="_blank" rel="noopener noreferrer"> <b>Seleccionar</b> </Link>
+                                            <Link className='custom-link' to='https://widget.treatwell.es/availability?venueId=100063434&proposedServices=%5B%7B%22menuItemId%22%3A%22TR1360657012%22%2C%22optionIds%22%3A%5B%221263415068%22%5D%7D%5D' target="_blank" rel="noopener noreferrer"> <b>Seleccionar</b> </Link>
                                         </button>
                                     </li>
                                     <hr />

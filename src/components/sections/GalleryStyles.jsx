@@ -21,7 +21,7 @@ export const GalleryStyles = () => {
     return (
         <div>
             <section className="section__collections">
-                <video src={smoke_section} autoPlay muted loop>
+                <video src={smoke_section} muted loop controls>
                     
                 </video>
 
@@ -72,9 +72,10 @@ export const GalleryStyles = () => {
                             src={gallery_j6}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Wintry Mountain Landscape"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
                     </div>
 
@@ -83,9 +84,10 @@ export const GalleryStyles = () => {
                             src={gallery_j2}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Mountains in the Clouds"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
 
                         <img
@@ -107,16 +109,17 @@ export const GalleryStyles = () => {
                             src={gallery_j6}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Yosemite National Park"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
                     </div>
                 </div>
             </div>
 
             <section className="section__collections">
-                <video src={section_form} autoPlay muted loop></video>
+                <video src={section_form}  muted loop controls></video>
 
 
                 <h1 className='libre-bodoni'>
@@ -149,9 +152,10 @@ export const GalleryStyles = () => {
                             src={gallery_jF}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Wintry Mountain Landscape"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
 
                     </div>
@@ -161,18 +165,20 @@ export const GalleryStyles = () => {
                             src={gallery_jF1}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Mountains in the Clouds"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
 
                         <video
                             src={gallery_jF3}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Mountains in the Clouds"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
                     </div>
 
@@ -181,15 +187,17 @@ export const GalleryStyles = () => {
                             src={gallery_jF2}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Waves at Sea"
+                            
                         />
 
                         <video
                             src={gallery_j6}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Yosemite National Park"
-                            autoPlay
+                            
                             muted
-                            loop
+                            
+                            controls
                         />
                     </div>
                 </div>

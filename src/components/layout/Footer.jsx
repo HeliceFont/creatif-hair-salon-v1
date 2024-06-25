@@ -118,7 +118,7 @@ export const Footer = () => {
 
           <footer className="footer">
             <span>
-              Creatif Hair Salon &copy; 2024 Todos los derechos reservados <Link to='https://helicefont.github.io/06-maquetacion-web1/' target="_blank" rel="noopener noreferrer">HelicexWorkweb&#174;</Link>
+              Creatif Hair Salon &copy; 2024 Todos los derechos reservados <Link to='https://helicexworkweb.es/' target="_blank" rel="noopener noreferrer">HelicexWorkweb&#174;</Link>
             </span>
           </footer>
         </div>
