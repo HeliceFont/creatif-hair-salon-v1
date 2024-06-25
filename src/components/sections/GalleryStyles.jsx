@@ -21,7 +21,7 @@ export const GalleryStyles = () => {
     return (
         <div>
             <section className="section__collections">
-                <video src={smoke_section} muted loop controls>
+                <video src={smoke_section}  muted loop autoPlay playsInline disablePictureInPicture >
                     
                 </video>
 
@@ -119,7 +119,7 @@ export const GalleryStyles = () => {
             </div>
 
             <section className="section__collections">
-                <video src={section_form}  muted loop controls></video>
+                <video src={section_form}  muted loop autoPlay playsInline disablePictureInPicture ></video>
 
 
                 <h1 className='libre-bodoni'>

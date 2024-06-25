@@ -10,7 +10,16 @@ import { MisRutas } from './router/MisRutas'
 
 
 function App() {
+  let previousTitle = document.title
 
+  window.addEventListener('blur', () =>{
+    previousTitle = document.title
+    document.title = '🚨¡No te vayas! ¡vueleve! 🚨'
+  })
+
+  window.addEventListener('focus', () =>{
+    document.title = 'Creatif Hair Salon'
+  })
 
   return (
     <div className='layout'>

@@ -14,7 +14,7 @@ const HeaderServices = () => {
       <header className="header-services">
         <section className="section-2 fondo-section section__title">
           <div className="video-container">
-            <video src={background_header} autoPlay muted loop />
+            <video src={background_header} muted loop autoPlay playsInline disablePictureInPicture />
             <img src={logo} className='header__services-img' alt="" />
           </div>
           
