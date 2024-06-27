@@ -9,6 +9,7 @@ import { Footer } from "../components/layout/Footer"
 import { SectionJ } from "../components/sections/SectionJ"
 import { Collections } from "../components/Collections"
 
+
 export const MisRutas = () => {
   return (
     // IMPORTANTE tener instalado react-router-dom en el proyecto para que nuestras rutas funcionen correctamente
@@ -17,7 +18,7 @@ export const MisRutas = () => {
 
         {/* HEADER Y NAVEGACION */}
         <HeaderNav/>
-
+        
         {/* CONTENIDO CENTRAL */}
         <section className="content">
           <Routes >
@@ -27,8 +28,10 @@ export const MisRutas = () => {
               <Route path="/servicios" element={<Servicios/>}/>
               <Route path="/collections" element={<Collections/>}/>
               <Route path="/sectionj" element={<SectionJ/>}/>
+              
           </Routes>
         </section>
+        
 
         
         

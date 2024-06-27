@@ -5,8 +5,12 @@ import './sectionJ.css';
 import biography_J2 from '../../assets/biography-j5.png'
 import biography_J3 from '../../assets/biography-j3.png'
 import CollectionsJ from "./CollectionsJ";
+import { useEffect } from "react";
 
 export const SectionJ = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
   return (
     <div>
       <div className="section-2 fondo-section section__title">

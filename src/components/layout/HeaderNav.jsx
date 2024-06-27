@@ -5,6 +5,7 @@ import logo from "../../assets/Logo-c1-a.svg"
 import { useState } from "react";
 import './customStyles.css';
 
+
 export const HeaderNav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -43,8 +44,14 @@ export const HeaderNav = () => {
                             <NavLink to="/collections">Collections</NavLink>
                         </li>
                     </ul>
+                    
                 </nav>
+                
             </header>
+            <div>
+        
+            </div>
+            
 
 
         </>
