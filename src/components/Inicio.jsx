@@ -48,7 +48,7 @@ export const Inicio = () => {
 
         <div className="logo-inicio animate__animated animate__rollIn">
 
-          <img src={logo2} alt="" />
+          <img src={logo2} alt="Logo Creatif Hair Salon Huelva" />
         </div>
 
         <div className="tarjeta animate__animated animate__bounce montserrat-card ">
@@ -81,7 +81,7 @@ export const Inicio = () => {
               </h1>
             </div>
             <div className="description__link">
-              <img src={rocio} alt="Rocio Pink" className='description__img img-fluid'></img>
+              <img src={rocio} alt="Rocio Pink | estilista Creatif Hair Salon" className='description__img img-fluid'></img>
             </div>
 
 
@@ -109,7 +109,7 @@ export const Inicio = () => {
               </h1>
             </div>
             <div className="description__link">
-              <img src={javi} alt="javi cruzado" className='description__img img-fluid'></img>
+              <img src={javi} alt="javi cruzado | estilista Creatif Hair Salon | Formador Panasonic" className='description__img img-fluid'></img>
             </div>
 
 

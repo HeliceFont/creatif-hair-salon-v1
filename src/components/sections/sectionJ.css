@@ -27,6 +27,7 @@
   font-style: normal;
 }
 
+
 .container__biography {
     display: flex;
     align-items: center;
@@ -38,7 +39,6 @@
     padding: 0rem 2rem;
     max-width: var(--mx-width);
 }
-
 
 
 .biography__img {

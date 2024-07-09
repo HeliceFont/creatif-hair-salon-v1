@@ -21,7 +21,7 @@ export const GalleryStyles = () => {
     return (
         <div>
             <section className="section__collections">
-                <video src={smoke_section}  muted loop autoPlay playsInline disablePictureInPicture >
+                <video src={smoke_section} alt='Contemporary Men Collection | Javi Cruzado Barber'  muted loop autoPlay playsInline disablePictureInPicture >
                     
                 </video>
 
@@ -65,25 +65,25 @@ export const GalleryStyles = () => {
                         <img
                             src={gallery_j1}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
+                            alt="Colección de estilos de peinados| Contemporary Men Collection | Creatif Hair Salon - Javi Cruzado"
                         />
 
                         <video
                             src={gallery_j6}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Wintry Mountain Landscape"
+                            alt="Colección de estilos de peinados| Contemporary Men Collection | Creatif Hair Salon - Javi Cruzado"
                             
                             muted
                             
                             controls
-                        />
+                        /> 
                     </div>
 
                     <div className="col-lg-4 mb-4 mb-lg-0">
                         <video
                             src={gallery_j2}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Mountains in the Clouds"
+                            alt="Colección de estilos de peinados| Contemporary Men Collection | Creatif Hair Salon - Javi Cruzado"
                             
                             muted
                             
@@ -93,7 +93,7 @@ export const GalleryStyles = () => {
                         <img
                             src={gallery_j8}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
+                            alt="Colección de estilos de peinados| Contemporary Men Collection | Creatif Hair Salon - Javi Cruzado"
                         />
                     </div>
 
@@ -101,14 +101,14 @@ export const GalleryStyles = () => {
                         <img
                             src={gallery_j7}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Yosemite National Park"
+                            alt="corte de pelo | Colección de estilos de peinados| Contemporary Men Collection | Creatif Hair Salon - Javi Cruzado"
                             
                         />
 
                         <video
                             src={gallery_j6}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Yosemite National Park"
+                            alt="corte de pelo | Colección de estilos de peinados| Contemporary Men Collection | Creatif Hair Salon - Javi Cruzado"
                             
                             muted
                             
@@ -145,13 +145,13 @@ export const GalleryStyles = () => {
                         <img
                             src={gallery_jF0}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
+                            alt="Formaciones de peinados tendencia | Estilista y peluquero Javi Cruzado | Colaboración con Panasonic | Creatif Hair Salon"
                         />
 
                         <video
                             src={gallery_jF}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Wintry Mountain Landscape"
+                            alt="Formaciones de peinados tendencia | Estilista y peluquero Javi Cruzado | Colaboración con Panasonic | Creatif Hair Salon"
                             
                             muted
                             
@@ -164,7 +164,7 @@ export const GalleryStyles = () => {
                         <video
                             src={gallery_jF1}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Mountains in the Clouds"
+                            alt="Formaciones de peinados tendencia | Estilista y peluquero Javi Cruzado | Colaboración con Panasonic | Creatif Hair Salon"
                             
                             muted
                             
@@ -174,7 +174,7 @@ export const GalleryStyles = () => {
                         <video
                             src={gallery_jF3}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Mountains in the Clouds"
+                            alt="Formaciones de peinados tendencia | Estilista y peluquero Javi Cruzado | Colaboración con Panasonic | Creatif Hair Salon"
                             
                             muted
                             
@@ -186,14 +186,14 @@ export const GalleryStyles = () => {
                         <img
                             src={gallery_jF2}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Waves at Sea"
+                            alt="Formaciones de peinados tendencia | Estilista y peluquero Javi Cruzado | Colaboración con Panasonic | Creatif Hair Salon"
                             
                         />
 
                         <video
                             src={gallery_j6}
                             className="w-100 shadow-1-strong rounded mb-4"
-                            alt="Yosemite National Park"
+                            alt="Formaciones de peinados tendencia | Estilista y peluquero Javi Cruzado | Colaboración con Panasonic | Creatif Hair Salon"
                             
                             muted
                             
