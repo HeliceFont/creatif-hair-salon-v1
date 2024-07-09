@@ -39,6 +39,8 @@
     max-width: var(--mx-width);
 }
 
+
+
 .biography__img {
     flex: 0 0 auto;
     /* Esto asegura que el ancho del contenedor de la imagen se ajuste al ancho de su contenido */
@@ -62,7 +64,15 @@
     width: 50rem;
     line-height: 1.2rem;
 }
+@keyframes show{
+    from{
+        opacity: 0; scale: 10%;
+    }
 
+    to{
+        opacity: 1; scale: 100%;
+    }
+}
 
 .biography__text h3 {
     
@@ -72,15 +82,54 @@
     
 }
 
+
 .biography__text h3 b {
     color: var(--color-border);
 }
+
 
 .gallery__contain {
     display: flex;
     flex-direction: column;
 }
 
+
+
+
+
+.gallery__contain img {
+    /* creamos una linea de tiempo */
+    view-timeline-name: --reveal;
+
+    /* usamos la animación keyframes */
+    animation-name: show;
+
+    /* que funcione tanto al entrar como al salir */
+    animation-fill-mode: both;
+    
+    /* conectamos la animación con la linea de tiempo anterior*/
+    animation-timeline: --reveal;
+
+    /* definimos que debe ejecutarse basado en la posición del elemento según la vista del usuario */
+    animation-range: entry 25% cover 50%;
+}
+
+.gallery__contain video {
+    /* creamos una linea de tiempo */
+    view-timeline-name: --reveal;
+
+    /* usamos la animación keyframes */
+    animation-name: show;
+    /* que funcione tanto al entrar como al salir */
+    animation-fill-mode: both;
+    
+    /* conectamos la animación con la linea de tiempo anterior*/
+    animation-timeline: --reveal;
+
+    /* definimos que debe ejecutarse basado en la posición del elemento según la vista del usuario */
+    animation-range: entry 25% cover 50%;
+
+}
 .row__position {
     padding-top: 3rem;
     padding-left: 15rem;
